@@ -3,12 +3,27 @@
 // $body-bg: #000;
 // $body-color: white;
 // $primary: hotpink;
-// $font-family-base: Arial;
+// // $font-family-base: Arial;
+
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  text-align: center;
+}
+
+.dropdown {
+  margin-top: 5%;
+}
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
 body {
-  padding: 20px;
+  padding: 50px;
 }
