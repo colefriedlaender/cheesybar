@@ -38,3 +38,13 @@ header {
 .card-img-top {
   filter: blur(10px);
 }
+.footerbar {
+  position: fixed;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
