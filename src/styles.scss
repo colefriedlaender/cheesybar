@@ -14,13 +14,24 @@ body {
 
 // Add you custom CSS
 body {
-  padding: 20px;
+  padding: 0px;
 }
 .container {
-  margin-top: 2%;
+  margin-top: 0%;
+  margin-bottom: 2%;
 }
 
 header {
   position: sticky;
-  top: 2%;
+  top: 0%;
+  bottom: 5%;
+  background-color: grey;
+  z-index: 1;
+}
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+}
+.card {
+  margin: 2% auto;
 }
