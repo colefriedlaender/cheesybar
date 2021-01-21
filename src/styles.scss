@@ -1,14 +1,40 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
-$body-bg: #000;
-$body-color: white;
-$primary: hotpink;
-$font-family-base: Arial;
+// $body-bg: #000;
+// $body-color: white;
+// $primary: hotpink;
+// // $font-family-base: Arial;
+
+body {
+  font-family: "Courier New", Courier, monospace;
+}
 
 // Include all Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
 // Add you custom CSS
 body {
-  padding: 20px;
+  padding: 0px;
+}
+.container {
+  margin-top: 0%;
+  margin-bottom: 2%;
+}
+
+header {
+  position: sticky;
+  top: 0%;
+  bottom: 5%;
+  background-color: grey;
+  z-index: 1;
+}
+.topnav {
+  background-color: grey;
+  overflow: hidden;
+}
+.card {
+  margin-bottom: 10%;
+}
+.card-img-top {
+  filter: blur(10px);
 }
